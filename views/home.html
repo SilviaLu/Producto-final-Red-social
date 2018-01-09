@@ -13,8 +13,8 @@
 	<title>Red Social</title>
 </head>
 
-<body class="container-fluid">
-	<!-- -->
+<body class="container">
+	<!--nav-->
 	<nav class="navbar navbar-default">
 		<div class="container-fluid ">
 			<!-- Navbar for mobile -->
@@ -48,19 +48,19 @@
 			</div>
 		</div>
 	</nav>
+
 	<!-- Seccion de informacion de la usuaria -->
 	<main class="container-flex-column">
-		<div class="container">
-			
-				<!-- mobile -->
-				<div class="row text-center">
-				<div class="col-xs-6 offset-xs-6 text text-center hidden-sm hidden-md hidden-lg usuaria-m">
+		<div class="container text-center">
+			<!-- mobile -->
+			<div class="text-center">
+				<div class="col-xs-12 text hidden-sm hidden-md hidden-lg usuaria-m">
 					<br>
 					<figure class="">
-						<img class="img-responsive text-center" src="../assets/img/avatar.png" alt="usuaria">
+						<img class="img-responsive" src="../assets/img/avatar.png" alt="usuaria">
 					</figure>
 					<figcaption>
-						<p class=" text text-center">Juana Lopez</p>
+						<p class=" text-name">Juana Lopez</p>
 						<button type="button" class="btn btn-light">Mis match
 							<span class="icon">
 								<i class="fa fa-star" aria-hidden="true"></i>
@@ -68,52 +68,108 @@
 						</button>
 					</figcaption>
 				</div>
-				<div class="row text-center text-mobile">
+				<div class="text-mobile">
 					<div class="col-xs-12 hidden-sm hidden-md hidden-lg text-estado box-mobile" id="margin-0">
 						Mi dia hoy no ha sido facil, y entiendo que son parte del dia dia y de crecer cada dia mas ...!muchos exitos para todos...
 					</div>
 				</div>
 			</div>
 
-				<!-- Desktop -->
+			<!-- Desktop -->
 
-				<div class="row text text-center mama">
-					<div class="col-sm-3 col-md-4 col-lg-4 text-center hidden-xs usuaria-d">
-						<figure>
-							<img class="img-responsive" src="../assets/img/avatar.png" alt="usuaria">
-						</figure>
-						<figcaption>
-							<p class=" text text-center">Juana Lopez</p>
-							<button type="button" class="btn btn-light">Mis matchs
-								<span class="
+			<div class="rowtext text-center">
+				<div class="col-sm-3 col-md-4 col-lg-4 text-center hidden-xs usuaria-d">
+					<figure>
+						<img class="img-responsive" src="../assets/img/avatar.png" alt="usuaria">
+					</figure>
+					<figcaption>
+						<p class=" text text-center">Juana Lopez</p>
+						<button type="button" class="btn btn-light">Mis matchs
+							<span class="
 								icon">
-									<i class="fa fa-star" aria-hidden="true"></i>
-								</span>
-							</button>
-							<button type="button" class="btn btn-outline-success">Mis actividades
+								<i class="fa fa-star" aria-hidden="true"></i>
+							</span>
+						</button>
+						<button type="button" class="btn btn-outline-success">Mis actividades
 
-							</button>
+						</button>
 
-						</figcaption>
-					</div>
-					<div class="col-sm-8 col-md-8 col-lg-8 offset-xs-4 hidden-xs text-estado box-desktop">
-						<p>
-							Hoy me siento...Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor fugit sunt provident, enim cupiditate exercitationem
-							nostrum consequatur modi voluptas esse ullam earum qui. Quis ut amet libero nam, reiciendis enim? Lorem ipsum dolor
-							sit amet consectetur adipisicing elit. Iste itaque eum voluptatum, vero voluptas ducimus temporibus illum ipsa perferendis
-							quaerat assumenda delectus nostrum eius! Soluta itaque facere ad tempore aut.
-						</p>
-					</div>
+					</figcaption>
+				</div>
+				<div class="col-sm-8 col-md-8 col-lg-8 offset-sm-4 hidden-xs text-estado box-desktop">
+					<p>
+						Hoy me siento...Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor fugit sunt provident, enim cupiditate exercitationem
+						nostrum consequatur modi voluptas esse ullam earum qui. Quis ut amet libero nam, reiciendis enim? Lorem ipsum dolor
+						sit amet consectetur adipisicing elit. Iste itaque eum voluptatum, vero voluptas ducimus temporibus illum ipsa perferendis
+						quaerat assumenda delectus nostrum eius! Soluta itaque facere ad tempore aut.
+					</p>
 				</div>
 			</div>
 		</div>
-	</main>
-	<section>
-		<!-- mobile -->
-
-		<div class="col-xs-12 updates">
-			<button type="button" class="btn btn-success text-rigth">Subir</button>
 		</div>
+	</main>
+
+	<!-- ingreso de mensajes-->
+	<section>
+		<div class="container">
+			<div class="row-textarea">
+				<div class="form-group hidden-sm hidden-md hidden-lg box-updates">
+					<textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+					<button type="button" class="btn btn-success  button-msj">Subir</button>
+				</div>
+			</div>
+			<div></div>
+		</div>
+	</section>
+
+	<section>
+		<!-- subiendo imagen para compatir -->
+		<!-- mobile -->
+		<div class="col-xs-12 hidden-xs hidden-sm hidden-lg intro-img-mobile"></div>
+		<h3 class="text">Tienes algo que compartir hoy</h3>
+		<div id="preview" class="thumbnail">
+			<img class="img-responsive" src="" />
+		</div>
+		<a href="#" id="file-select" class="btn btn-default">Elegir archivo</a>
+		<form id="file-submit" enctype="multipart/form-data">
+			<input id="file" name="file" type="file" />
+		</form>
+		</div>
+		<!-- desktop -->
+		<div class="col-sm-8 col-md-7 col-lg-7 hidden-xs img-intro-desktop">
+			<h3 class="text">Tienes algo que compartir hoy</h3>
+			<div id="preview" class="thumbnail">
+				<img class="img-responsive" src="" />
+			</div>
+			<a href="#" id="file-select" class="btn btn-default">Elegir archivo</a>
+			<form id="file-submit" enctype="multipart/form-data">
+				<input id="file" name="file" type="file" />
+			</form>
+		</div>
+	</section>
+
+	<!-- noticias -->
+	<section class="container">
+		<div class="row">
+			<div class="box-noticias">
+				<a href="" class="pull-left">Actualidades</a>
+				<br>
+				<figure>
+					<img class="img-noticias text-center img-responsive" src="../assets/img/oprah.jpg" alt="">
+				</figure>
+				<figcaption>
+					<h4 class=" text-left title-noticias">
+						Los globos de Oro y del valor femenino, contra el abuso.
+					</h4>
+					<h5 class=" text-left text-noticias"> La edicion de los 75 se vivio enttre discursos de apoyo a la mujer y muestras de repudio al acoso sexual en Hollywood;
+						los galardones reflejaron la diversidad de la critica.
+						<a href="http://www.milenio.com/hey/cine/premios_globos_oro-guillermo_toro-shape_water-acoso-abuso_sexual-oprah_winfrey_0_1099690034.html">leer mas</a>
+					</h5>
+				</figcaption>
+
+			</div>
+		</div>
+
 	</section>
 
 

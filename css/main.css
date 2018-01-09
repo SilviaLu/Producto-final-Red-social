@@ -1,44 +1,71 @@
-.body{
-	margin:0;
+/* helpers */
+boby{
+background:rgb(212, 144, 230); 
 }
 .container-flex-column {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	padding: 2em;
-	/* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
 }
+
 #imgSalida {
     width: 40%;
     height: 40%;
 }
-.mama{
-	margin: 0;
+
+.mama {
+    margin: 0;
 }
 
 .img-fluid {
     width: 60px;
     height: 60px;
     padding-bottom: 10px;
-    padding-top: 5px;
+    padding-top: 0px;
     color: mediumorchid;
 }
 
-.text{
+.text {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
 }
-.usuaria-m{
-	height: 200px;
-	text-align: center;
-	border-radius: 50%;
-	border: 3px solid rgb(232, 185, 185);
-	padding-top: 0;
+
+
+/* mobile */
+
+.usuaria-m {
+    height: 250px;
+    width: 200px;
+    text-align: center;
+    border-radius: 30%;
+    border: 3px solid rgb(232, 185, 185);
+    padding-top: 0;
+    margin: 0;
 }
+
+.text-mobile {
+    padding: 5px;
+    width: 80%;
+    margin: 0;
+    border: 0;
+}
+#margin-0 {
+    margin: 0;
+}
+
+.box-mobile {
+    background-color: #f3afaf;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+
+/* desktop */
+
 .usuaria-d {
     border-radius: 20%;
-		/* outline: 1px solid red; */
-	
+    /* outline: 1px solid red; */
 }
 
 .icon {
@@ -46,7 +73,6 @@
 }
 
 .text-estado {
-   
     /* outline: 1px solid blue; */
 }
 
@@ -54,39 +80,63 @@
     display: inline-block
 }
 
-.text-mobile{
-	padding: 5px;
-	width: 80%;
-	margin:0;
-	border:0;
-	
-}
-.box-mobile{
-	background-color: #f3afaf;
-	padding: 10px;
+.box-desktop {
+    border-radius: 6%;
+    height: 210px;
+    background-color: #f3afaf;
+    padding: 6px;
+    margin: 10px;
+    /* outline: 2px solid red; */
 }
 
-.box-desktop{
-	border-radius: 6%;
-	height: 210px;
-	background-color: #f3afaf;
-	padding: 6px;
-	margin: 10px;
-	outline: 2px solid red;
 
-}
 
-#margin-0{
-	margin: 0;
-}
-/* section */
-.btn-outline-success{
-	width:70%;
+
+/* section:ingreso de mensajes*/
+
+.row-textarea{
 	text-align: center;
 }
-.updates{
-	width: 80%;
-	height: 100px;
-	border: 1px solid gray;
-	pad
+
+
+
+/* mobile */
+
+.box-updates {
+    width: 80%;
+    height: 100px;
+    /* border: 1px solid gray; */
+}
+
+.btn-outline-success {
+    width: 70%;
+    text-align: center;
+}
+
+
+/* noticias */
+
+.box-noticias {
+    width: 85%;
+    height: 310px;
+    border-radius: 5%;
+    border: 2px solid #f3afaf;
+    ;
+}
+.text-noticias{
+	width: 90%;
+	text-align: center;
+	text-align: justify;
+
+}
+
+.title-noticias {
+    font-weight: bold;
+}
+
+.img-noticias {
+    width: 80%;
+    height: 150px;
+    padding: 10px;
+    border-radius: 8%;
 }
