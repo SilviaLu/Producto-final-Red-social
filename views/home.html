@@ -51,13 +51,13 @@
 
 	<!-- Area: informacion de la usuaria -->
 	<main class="container-flex-column center-block">
-		<div class="container center-block">
-			<!-- mobile -->
-			<div class="center-block">
+		<div class="container">
+			<!-- MOBILE -->
+			<div class="row center-block box-avatar">
 				<div class="col-xs-12 text hidden-sm hidden-md hidden-lg usuaria-m">
 					<br>
 					<figure class="">
-						<img class="img-responsive" src="../assets/img/avatar.png" alt="usuaria">
+						<img class="img-responsive center-block" src="../assets/img/avatar.png" alt="usuaria">
 					</figure>
 					<figcaption>
 						<p class=" text-name">Juana Lopez</p>
@@ -66,16 +66,19 @@
 								<i class="fa fa-star" aria-hidden="true"></i>
 							</span>
 						</button>
+						<br>
 					</figcaption>
-				</div>
-				<div class="text-mobile">
-					<div class="col-xs-12 hidden-sm hidden-md hidden-lg text-estado box-mobile" id="margin-0">
-						Mi dia hoy no ha sido facil, y entiendo que son parte del dia dia y de crecer cada dia mas ...!muchos exitos para todos...
-					</div>
+					<br>
 				</div>
 			</div>
+			<!-- ingreso de estado personal -->
+			<div class="text-mobile center-block">
+				<textarea class="form-control col-xs-12 hidden-sm hidden-md hidden-lg text-estado box-mobile center-block" id="feel" rows="2"
+				  placeholder="Como te sientes"></textarea>
+				<button type="button" class="btn btn-warning center-rigth" id="btnEstado">Enviar</button>
+			</div>
 
-			<!-- Desktop -->
+			<!-- DESKTOP -->
 			<div class="text text-center">
 				<div class="col-sm-3 col-md-4 col-lg-4 text-center hidden-xs usuaria-d">
 					<figure class="center-block">
@@ -93,26 +96,28 @@
 						</button>
 					</figcaption>
 				</div>
-				<div class="col-sm-8 col-md-8 col-lg-8 offset-sm-4 hidden-xs text-estado box-desktop">
-					<p>
-						Hoy me siento... <br>Todos los dias son un nuevo comienzo, todos los dias sale el sol, y son ua nueva oportunidad para comenzar. <br> <br> <br> <br>
-					</p>
-				</div>
+			</div>
+			<!-- ingreso de estado personal -->
+			<div class="col-sm-8 col-md-8 col-lg-8 offset-sm-4 hidden-xs text-estado box-desktop center-block">
+				<textarea class="form-control col-xs-12 hidden-sm hidden-md hidden-lg text-estado box-mobile" id="exampleTextarea" rows="4"
+					placeholder="Como te sientes">
+				</textarea>
+				<button type="button" class="btn btn-warning">Enviar</button>
 			</div>
 		</div>
-	</div>
+		</div>
+		</div>
 	</main>
 
-	<!-- Area: ingreso de mensajes-->
+	<!-- ingreso de mensajes-->
 	<section>
 		<div class="container">
-			<div class="row-textarea">
-				<div class="form-group box-updates">
+			<div class="row-textarea ">
+				<div class="form-group box-updates mama">
 					<textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-					<button type="button" class="btn btn-success  button-msj">Subir</button>
+					<button type="button" class="btn btn-warning  button-msj">Subir</button>
 				</div>
 			</div>
-			<!-- <div></div> -->
 		</div>
 	</section>
 

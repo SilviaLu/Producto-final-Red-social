@@ -19,4 +19,21 @@ Para él hay algunos puntos básicos que debe tener una red social:
 + Ser mobile friendly.
 Etc.
 
-Este emprendedor, además, sabe que los creadores de productos tienen que pensar siempre en los usuarios y espera que tengas en cuenta lo que necesitan los usuarios al momento de crear este producto, si piensas por ejemplo en una red social para compartir memes, o una para compartir cosas de mascotas o alguna otra para compartir tips sobre restaurantes o recetas, tendrás que tener en cuenta qué es lo que le gustaría encontrar a un usuario sobre estos temas en la red social.
+
+**Pantalla de inicio en mobile**
+![Sin titulo](assets/img/img-mobile1.png)
+**Pantalla de registrarse en mobile**
+![Sin titulo](pictures/avatar.png)
+**Pantalla de inicio de sesion en mobile**
+![Sin titulo](pictures/avatar.png)
+**Pantalla de home en mobile**
+![Sin titulo](pictures/avatar.png)
+
+**Pantalla de inicio en desktop**
+![Sin titulo](assets/img/img-desktop1.png)
+**Pantalla de registrarse en desktop**
+![Sin titulo](pictures/avatar.png)
+**Pantalla de inicio de sesion en desktop**
+![Sin titulo](pictures/avatar.png)
+**Pantalla de home en desktop**
+![Sin titulo](pictures/avatar.png)

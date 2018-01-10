@@ -89,7 +89,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2em;
+    padding-top: 0;
+    padding-left: 10px;
+    
 }
 
 #imgSalida {
@@ -111,22 +113,29 @@
 }
 
 /* Zona mobile */
-.usuaria-m {
+.box-avatar{
     height: 250px;
     width: 200px;
+}
+.usuaria-m {
+    height: auto;
+    width: 200px;
     text-align: center;
-    border-radius: 30%;
-    border: 3px solid rgb(232, 185, 185);
+    border-radius: 10%;
+    border: 3px solid rgb(233, 38, 223);
     padding-top: 0;
     margin: 0;
 }
 
+
 .text-mobile {
-    padding: 5px;
-    width: 80%;
-    margin: 0;
+    padding-top: 37px;
+    width: 90%;
+    margin: 5px;
     border: 0;
+    text-align: center;
 }
+
 
 #margin-0 {
     margin: 0;
@@ -159,20 +168,21 @@
     margin: 10px;
   
 }
+/* Ingreso de estado personal */
 
 /* Area: ingreso de mensajes*/
 
 .row-textarea {
     text-align: center;
 }
-
-.new-msj {
-    position: relative;
-    display: block;
-    width: 90%;
-    border-radius: 6%;
-    border: 2px solid gray;
-    text-align: center;
+#feel{
+    height: 60px;
+    width: 250px;
+}
+.newfeel{
+    height: autox;
+    width: 250px; 
+    background: #f3afaf; 
 }
 
 /* Zona mobile */
