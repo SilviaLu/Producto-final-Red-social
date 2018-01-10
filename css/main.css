@@ -1,6 +1,60 @@
 /* helpers */
+/* index.htnl */
+.bg-main{
+    background-image: url(../assets/img/bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.logo-up{
+    padding-top: 30px;
+}
+.logo-center{
+    /* align-items: center; */
+    width: 30vh;
+    height: auto;
+    padding-top: 50px;
+}
+.logo-tulipan{
+    width: 30%;
+    height: auto;
+}
+.button{
+    padding-top: 50px;
+}
+.button-login, .button-signup{
+
+    display: inline-block;
+    padding: 20px;
+}
+.button-mobile{
+    padding-top: 200px; 
+}
+.btn-lg{
+    max-width: 100%;
+    background-color: rgb(202, 7, 209);
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+    border: solid gray;
+    border-radius: 10%;
+    padding: 10px;
+    /* display: inline-block; */
+}
+.btn-lg:hover{
+    background: #f3afaf;
+}
+.btn-lg:active{
+    background: hsla(12, 85%, 61%, 0.932);
+}
+
+/* ------------------------- */
 boby{
-background:rgb(212, 144, 230); 
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-align: center;
+ 
 }
 .container-flex-column {
     display: flex;
@@ -89,16 +143,11 @@ background:rgb(212, 144, 230);
     /* outline: 2px solid red; */
 }
 
-
-
-
 /* section:ingreso de mensajes*/
 
 .row-textarea{
 	text-align: center;
 }
-
-
 
 /* mobile */
 
@@ -113,7 +162,6 @@ background:rgb(212, 144, 230);
     text-align: center;
 }
 
-
 /* noticias */
 
 .box-noticias {
@@ -121,7 +169,7 @@ background:rgb(212, 144, 230);
     height: 310px;
     border-radius: 5%;
     border: 2px solid #f3afaf;
-    ;
+    
 }
 .text-noticias{
 	width: 90%;
@@ -139,4 +187,14 @@ background:rgb(212, 144, 230);
     height: 150px;
     padding: 10px;
     border-radius: 8%;
+}
+/* ingreso de mensajes */
+.new-msj{
+    position: relative;
+    display: block;
+    width: 90%;
+    border-radius: 6%;
+    border:2px solid gray;
+    text-align: center;
+
 }

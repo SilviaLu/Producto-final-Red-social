@@ -4,14 +4,17 @@ $(document).ready(function() {
 	
   button.on('click', function() {
     if (msjIntro.val()) {
-      // alert("jjjjj") comprobado
+      // alert('jjjjj');
      
-      var newMsj =	$('.form-group').append('<div class=new-msj></div>');
+      $('.mama').append('<div class=new-msj>'+ msjIntro.val() +'</div>');
+      
+      msjIntro.val('');
+
       // $( ".inner" ).append( "<p>Test</p>" );
       // console.log("hola")
-      //   var newText = $(document).createElement("<div class=new-msj></div>");
+        // var newText = $(document).createElement("<div class=new-msj></div>");
       // 	boxText.appendChild(newText);
-      Ne.textContent = msjIntro.val();
+      // .textContent = msjIntro.val();
     //   tweetArea.value = '';
     // }
     };
