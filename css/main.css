@@ -1,6 +1,13 @@
 /* helpers */
 
 /* Seccion index.htnl */
+.bg-index{
+    background-image: url(../assets/img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
 .bg-main {
     background-image: url(../assets/img/bg-home.jpeg);
     background-repeat: no-repeat;
