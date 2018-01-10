@@ -1,36 +1,52 @@
 /* helpers */
-/* index.htnl */
-.bg-main{
-    background-image: url(../assets/img/bg.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
+
+/* Seccion index.htnl */
+.bg-main {
+    background-image: url(../assets/img/bg-home.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
-.logo-up{
+
+.navbar {
+    background-color: #f3afaf;
+}
+
+.navbar-header {
+    background-color: #f3afaf;
+    padding: 8px;
+}
+
+.logo-up {
     padding-top: 30px;
 }
-.logo-center{
-    /* align-items: center; */
+
+.logo-center {
     width: 30vh;
     height: auto;
     padding-top: 50px;
 }
-.logo-tulipan{
+
+.logo-tulipan {
     width: 30%;
     height: auto;
 }
-.button{
+
+.button {
     padding-top: 50px;
 }
-.button-login, .button-signup{
 
+.button-login,
+.button-signup {
     display: inline-block;
     padding: 20px;
 }
-.button-mobile{
-    padding-top: 200px; 
+
+.button-mobile {
+    padding-top: 200px;
 }
-.btn-lg{
+
+.btn-lg {
     max-width: 100%;
     background-color: rgb(202, 7, 209);
     font-weight: bold;
@@ -39,23 +55,36 @@
     border: solid gray;
     border-radius: 10%;
     padding: 10px;
-    /* display: inline-block; */
-}
-.btn-lg:hover{
-    background: #f3afaf;
-}
-.btn-lg:active{
-    background: hsla(12, 85%, 61%, 0.932);
 }
 
-/* ------------------------- */
-boby{
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
-    text-align: center;
- 
+.btn-lg:hover {
+    background: #f3afaf;
 }
+
+.btn-lg:active {
+    background: hsla(12, 85%, 61%, 0.932);
+}
+/* ------------FIN------------- */
+
+/* Seccion signup.html */
+.body-signup {
+    background-image: url(../assets/img/bg-home.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* Seccion login.html */
+.body-login {
+    background-image: url(../assets/img/bg-home.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* ------------FIN------------- */
+
+/* Seccion Home.html */
 .container-flex-column {
     display: flex;
     flex-direction: column;
@@ -66,10 +95,6 @@ boby{
 #imgSalida {
     width: 40%;
     height: 40%;
-}
-
-.mama {
-    margin: 0;
 }
 
 .img-fluid {
@@ -85,9 +110,7 @@ boby{
     font-size: 20px;
 }
 
-
-/* mobile */
-
+/* Zona mobile */
 .usuaria-m {
     height: 250px;
     width: 200px;
@@ -104,6 +127,7 @@ boby{
     margin: 0;
     border: 0;
 }
+
 #margin-0 {
     margin: 0;
 }
@@ -114,20 +138,13 @@ boby{
     border-radius: 10%;
 }
 
-
-/* desktop */
-
+/* Zona desktop */
 .usuaria-d {
     border-radius: 20%;
-    /* outline: 1px solid red; */
 }
 
 .icon {
     color: yellow;
-}
-
-.text-estado {
-    /* outline: 1px solid blue; */
 }
 
 .container-desktop {
@@ -140,21 +157,28 @@ boby{
     background-color: #f3afaf;
     padding: 6px;
     margin: 10px;
-    /* outline: 2px solid red; */
+  
 }
 
-/* section:ingreso de mensajes*/
+/* Area: ingreso de mensajes*/
 
-.row-textarea{
-	text-align: center;
+.row-textarea {
+    text-align: center;
 }
 
-/* mobile */
+.new-msj {
+    position: relative;
+    display: block;
+    width: 90%;
+    border-radius: 6%;
+    border: 2px solid gray;
+    text-align: center;
+}
 
+/* Zona mobile */
 .box-updates {
     width: 80%;
     height: 100px;
-    /* border: 1px solid gray; */
 }
 
 .btn-outline-success {
@@ -162,20 +186,18 @@ boby{
     text-align: center;
 }
 
-/* noticias */
-
+/* Area: noticias */
 .box-noticias {
     width: 85%;
     height: 310px;
     border-radius: 5%;
     border: 2px solid #f3afaf;
-    
 }
-.text-noticias{
-	width: 90%;
-	text-align: center;
-	text-align: justify;
 
+.text-noticias {
+    width: 90%;
+    text-align: center;
+    text-align: justify;
 }
 
 .title-noticias {
@@ -188,13 +210,6 @@ boby{
     padding: 10px;
     border-radius: 8%;
 }
-/* ingreso de mensajes */
-.new-msj{
-    position: relative;
-    display: block;
-    width: 90%;
-    border-radius: 6%;
-    border:2px solid gray;
-    text-align: center;
+/* ------------FIN------------- */
 
-}
+
